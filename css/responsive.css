@@ -32,4 +32,15 @@
         font-size: 40px;
     }
 }
+@media screen and (min-width: 900px){
+    .bars-main{
+        display: none;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 600px) {
+    .header .navbar-nav {
+        margin-left: -157px;
+    }
+}
 /* Reader End */
