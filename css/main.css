@@ -1,0 +1,405 @@
+/* Multiple CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+    text-decoration: none!important;
+}
+h1,h4 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+/* Multiple CSS End */
+/* Header Start */
+/* .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+} */
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background: linear-gradient(to top, #1172e9 0%, #0769e0 100%);
+    border-bottom: 1px solid #0654b4;
+}
+.logo-pf {
+    color: #fff;
+    border: 5px solid black;
+    background-color: black;
+    padding: 0 5px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: system-ui;
+    border-radius: 21%;
+}
+.logo-ap {
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.header .navbar-nav {
+    display: flex;
+    flex-direction: unset;
+}
+.active {
+    color: #fff3f3!important;
+}
+.header .nav-link {
+    padding: 0 10px!important;
+    color: #9fc1ea;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    transition: color 0.15s ease;
+    font-family: arial;
+
+}
+.header .nav-link:not(.active):hover {
+    color: #fff3f3 !important;
+}
+.sign-in {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Header End */
+/* Banner Content Start */
+.top-banner {
+    background: linear-gradient(to top, #0764d5 0%, #0769e0 100%);
+}
+.top-banner .banner-content {
+    padding: 200px 0;
+    text-align: center;
+}
+.top-banner .banner-content h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 200;
+    font-family: system-ui;
+}
+.top-banner .banner-content h4 {
+    font-size: 16px;
+    font-size: 700;
+    color: #9fc1ea;
+}
+.top-banner .get-started-btn {
+    margin-top: 120px;
+}
+.top-banner .get-started-btn a {
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+    padding: 20px 35px;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 40px 40px 40px 40px;
+    color: #0654b4;
+    transition: all .5s;
+}
+.top-banner .get-started-btn a:hover {
+    background-color: #b6d7ff;
+}
+.top-banner .banner-img img {
+    width: 100%;
+    margin: auto;
+}
+/* Banner Content End */
+/* Want To Create Start */
+.want-to-create {
+    padding: 200px 0;
+    margin: auto;
+}
+.want-to-create .want-to-create-content {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.want-to-create .want-to-create-content h1 {
+    font-size: 50px;
+    font-weight: 200;
+    font-family: system-ui;
+}
+.want-to-create .want-to-create-content h4 {
+    font-size: 16px;
+    font-size: 200;
+    width: 50%;
+    margin: auto;
+    color: #6d7784;
+}
+.want-to-create-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.want-to-create-card .collection-work {
+    width: 40%;
+    padding: 20px;
+}
+.want-to-create-card .welcome-page {
+    width: 40%;
+    padding: 20px;
+}
+.want-to-create-card-content {
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px 0;
+    transition: .2s;
+    background-color: rgb(243, 243, 243);
+}
+.want-to-create-card-content:hover {
+    background-color: rgb(235, 235, 235);
+}
+.want-to-create-card-content h1 {
+    color: rgb(110, 110, 110);
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.want-to-create-card-content h4 {
+    color: #6d7784;
+    font-weight: 200;
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+}
+.welcome-page-content {
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px 0;
+    transition: .2s;
+    background-color: rgb(243, 243, 243);
+}
+.welcome-page-content:hover {
+    background-color: rgb(235, 235, 235);
+}
+.welcome-page-content h1 {
+    color: rgb(110, 110, 110);
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.welcome-page-content h4 {
+    color: #6d7784;
+    font-weight: 200;
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+}
+/* Want To Create End */
+/* What Possible Start */
+.what-possible {
+    padding: 100px 0;
+}
+.what-possible-content {
+    text-align: center;
+}
+.what-possible-content h1 {
+    font-size: 50px;
+    font-weight: 200;
+    font-family: system-ui;
+}
+.what-possible-content h4 {
+    font-size: 16px;
+    margin: auto;
+    width: 50%;
+    color: #6d7784;
+}
+.what-possible-btn {
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+.get-started-free {
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+    padding: 15px 25px;
+    background-color: #0764d5;
+    font-weight: bold;
+    border-radius: 40px 40px 40px 40px;
+    color: #ffffff;
+    transition: all .5s;
+}
+
+.get-started-free:hover {
+    background-color: #102947;
+    color: rgb(216, 216, 216) !important;
+}
+.view-more-examples {
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 40px 40px 40px 40px;
+    color: #6d7784;
+    transition: all .4s;
+    border: 1px solid #dfdfdf;
+}
+
+.view-more-examples:hover {
+    border: 1px solid #b9b9b9;
+    color: rgb(92, 92, 92) !important;
+}
+/* Carousel Start */
+.carousel {
+    max-width: 1170px;
+    margin: auto;
+}
+.carousel-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.carousel .carousel-box1 {
+    padding: 15px;
+    transition: all .3s;
+}
+.carousel .carousel-box1:hover {
+    cursor: pointer;
+}
+.carousel .carousel-box1 h5,h6 {
+    color:rgb(34, 34, 34);
+    margin-top: 10px;
+}
+.carousel .carousel-box2 {
+    padding: 15px;
+}
+.carousel .carousel-box2 h5,h6 {
+    color:rgb(34, 34, 34);
+    margin-top: 10px;
+}
+.carousel .carousel-box3 {
+    padding: 15px;
+}
+.carousel .carousel-box3 h5,h6 {
+    color:rgb(34, 34, 34);
+    margin-top: 10px;
+}
+.carousel .carousel-box4 {
+    padding: 15px;
+}
+.carousel .carousel-box4 h5,h6 {
+    color:rgb(34, 34, 34);
+    margin-top: 10px;
+}
+.carousel .carousel-box5 {
+    padding: 15px;
+}
+.carousel .carousel-box5 h5,h6 {
+    color:rgb(34, 34, 34);
+    margin-top: 10px;
+}
+.carousel .carousel-box6 {
+    padding: 15px;
+}
+.carousel .carousel-box6 h5,h6 {
+    color:rgb(34, 34, 34);
+    margin-top: 10px;
+}
+/* Carousel End */
+/* What Possible End */
+/* Show Case Start */
+.showcase .showcase-content {
+    padding: 100px 0px;
+}
+.showcase .showcase-content h1 {
+    font-size: 50px;
+    font-weight: 200;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.showcase .showcase-content h4 {
+    font-size: 16px;
+    font-size: 200;
+    width: 50%;
+    margin: auto;
+    color: #6d7784;
+    text-align: center;
+}
+.showcase {
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+.showcase .showcase-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+}
+.showcase .showcase-h1 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+.showcase .showcase-h4 {
+    font-size: 16px;
+}
+.get-started-btn {
+    margin-top: 100px;
+    text-align: center;
+}
+.get-started-btn a {
+    background: #0769e0;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 30px 30px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 200px;
+    transition: all .3s;
+}
+.get-started-btn a:hover {
+    color: #fff;
+    background-color: #0654b4;
+}
+/* Show Case End */
+/* Free Create Cloud Start */
+.free-creative-cloud {
+    text-align: center;
+}
+.free-creative-cloud-content h1 {
+    font-size: 50px;
+    font-family: serif;
+}
+.free-creative-cloud-content h4 {
+    width: 50%;
+    margin: auto;
+    color: #6d7784;
+    font-size: 20px;
+}
+/* Free Create Cloud End */
+/* Footer Start */
+footer {
+    padding: 100px;
+    margin-top: 80px;
+    background-color: #1D212B;
+    color: #fff;
+}
+footer .using-portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer .using-portfolio .a,.b,.c,.d,.e {
+    list-style: none;
+}
+footer .using-portfolio ul{
+    list-style: none;
+}
+.a .region a {
+    color: #fff;
+}
+.footer-head {
+    font-weight: bold;
+    margin: 20px 0;
+}
+/* Footer End */
