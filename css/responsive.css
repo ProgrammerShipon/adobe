@@ -1,5 +1,8 @@
 /* Reader Start */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 411px) {
+    body {
+        padding: 0 15px;
+    }
     .header {
         display: flex;
         align-items: unset;
@@ -44,18 +47,34 @@
         display: flex;
         flex-direction: column;
     }
+    .want-to-create .want-to-create-content h1 {
+        width: 100%;
+    }
+    .want-to-create-card-content h4 {
+        width: 100%;
+    }
     .want-to-create-card .collection-work {
         width: 100%;
     }
     .want-to-create-card .welcome-page {
         width: 100%;
     }
+    .welcome-page-content h4 {
+        width: 100%;
+    }
     .want-to-create {
         padding: 0;
+    }
+    .what-possible-content h1 {
+        font-size: 45px;
+    }
+    .what-possible-content h4 {
+        width: 100%;
     }
     .what-possible-btn {
         display: flex;
         flex-direction: column;
+        width: 50%;
     }
     .view-more-examples {
         display: none;
@@ -76,5 +95,18 @@
     }
     ol, ul {
         padding-left: 0px!important;
+    }
+    .want-to-create .want-to-create-content h4 {
+        width: 100%;
+    }
+    .carousel-box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .what-possible {
+        padding-bottom: 0px;
+    }
+    .showcase .showcase-content h4 {
+        width: 100%;
     }
 /* Reader End */
