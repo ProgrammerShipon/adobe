@@ -22,9 +22,6 @@ img {
     background-color: #fff !important;
     transition: background-color 200ms linear;
 } */
-body {
-    display: none;
-}
 .header {
     position: sticky;
     top: 0;
