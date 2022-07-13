@@ -18,7 +18,7 @@ img {
 }
 /* Multiple CSS End */
 /* Header Start */
-/* .navbar-fixed-top.scrolled {
+/* .nav-fixed-top.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
 } */
@@ -117,7 +117,7 @@ img {
 /* Banner Content End */
 /* Want To Create Start */
 .want-to-create {
-    padding: 200px 0;
+    padding: 100px 0;
     margin: auto;
 }
 .want-to-create .want-to-create-content {
