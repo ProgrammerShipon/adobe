@@ -1,7 +1,7 @@
 /* Reader Start */
 @media screen and (max-width: 411px) {
-    body {
-        padding: 0 15px;
+    header,section,footer {
+        padding: 0px 15px;
     }
     .header {
         display: flex;
@@ -109,4 +109,21 @@
     .showcase .showcase-content h4 {
         width: 100%;
     }
+    footer {
+        padding: 4% 5%;
+    }
+    footer .c {
+        position: absolute;
+        right: 3%;
+        margin-top: 65px;
+    }
+    footer .d {
+        margin-top: 50px;
+    }
+    footer .e {
+        position: absolute;
+        right: 35%;
+        margin-top: 78%;
+    }
+}
 /* Reader End */
